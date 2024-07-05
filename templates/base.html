@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Moises Rodriguez - {% block title%}{% endblock %}</title>
+</head>
+<body>
+    <section>
+    {%block content%}
+    {% endblock %}
+    <footer>
+        <ul>
+        <p>{{ text_data['key1'] }}</p>
+        <p>{{ text_data['key2'] }}</p>
+        <p>{{ text_data['key3'] }}</p>
+        </ul>
+    </footer>
+    </section>
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: SourceSans3-Black ;
+    src: url("/static/font/SourceSans3-Black.ttf");
+}
+
+@font-face {
+    font-family: SourceSans3-BlackItalic;
+    src: url("/static/font/SourceSans3-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: SourceSans3-Italic;
+    src: url("/static/font/SourceSans3-Italic.ttf");
+}
+
+@font-face {
+    font-family: SourceSans3-MediumItalic;
+    src: url("/static/font/SourceSans3-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: SourceSans3-VariableFont ;
+    src: url("/static/font/SourceSans3-VariableFont.ttf");
+}
+
+@keyframes aparecer {
+    0% { opacity: 0; } /* Keyframe inicial (0%) */
+    50% { opacity: 0.8;} /* Keyframe intermedio (50%) */
+    100% { opacity: 1.2; } /* Keyframe final (100%) */
+  }
+
+
+body
+{ 
+    background-color: rgb(59, 221, 159);
+    animation: aparecer 0.9s ease-in-out;
+}
+
+.modulo
+{
+    font-family: SourceSans3-VariableFont;
+    padding: 7px;
+    margin: 10px;
+    cursor:pointer;
+    border-color: white;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: none;
+    color: black; 
+    font-size: 30px;
+}
+
+
+/**************** Nav *******************/
+.ul
+{
+padding-left: 5px;
+}
+
+
+@media (max-width: 850px) {
+    .ul {
+      padding-left: 5%;
+    }
+  }
+
+.nav
+{
+    padding-right: 8px;
+    display: flex;
+    justify-content:center;
+}
+
+
+/**************** Footer *******************/
+
+footer{
+    font-family: SourceSans3-VariableFont;
+    display: flex;
+    justify-content:center;
+    padding-right: 70px;
+}
+
+
+@media (max-width: 850px) {
+    footer {
+    padding-right: 50px;
+    }
+  }
+

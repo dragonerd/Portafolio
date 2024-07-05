@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Inicio {% endblock %}
+{% block content %}
+<nav class="nav">
+    <ul class="ul">
+        <h2><a class="modulo" href="{{ url_for('proyectos')}}">Proyectos<a/></h2>
+            <h2><a class="modulo" href="{{ url_for('conocimientos')}}">Conocimientos<a/></h2>
+            <h2><a class="modulo" href="{{ url_for('contactame')}}">Contactame<a/></h2>
+    </ul>
+</nav>
+<section class="menu">
+    <p>Hola!</p>
+<aside><h2>Soy Moises Rodriguez</h2></aside>
+</section>
+{% endblock %}
