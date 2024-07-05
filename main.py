@@ -22,3 +22,5 @@ def conocimientos():
 @app.route('/contactame')
 def contactame():
     return render_template('contactame.html', text_data=text_data)
+
+if __name__ == "__main__": app.run()
